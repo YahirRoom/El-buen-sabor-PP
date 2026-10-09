@@ -1,0 +1,19 @@
+:root{
+    --beigeClaro: #F5EFE3;
+    --verdePantano: #4F5B2A;
+    --beigeOscuro: #D8C9A8;
+    --naraja: #B8892D;
+    --fuenteTitulo: "Playfair Display", serif;
+    --fuenteCuerpo: "Lato", sans-serif;
+}
+
+html{
+    font-size: 62.5%; /*1 rem = 10px*/
+    box-sizing: border-box; /*box-model*/
+}
+*, *:before, *:after {
+  box-sizing: inherit;/*box-model*/
+}
+body{
+    font-size: 16px; /*1 rem = 10px*/
+}
