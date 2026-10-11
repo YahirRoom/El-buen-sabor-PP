@@ -66,6 +66,10 @@ El-Buen-Sabor/
 
 Desarrollar una interfaz web funcional, interactiva y responsiva, aplicando conocimientos de desarrollo frontend, manipulación del DOM, manejo de eventos, consumo de archivos JSON, diseño adaptable a diferentes dispositivos y control de versiones mediante Git.
 
+## Link netlify
+
+https://prueba-tecnica-pp.netlify.app
+
 ##  Autor
 
 Yahir Yael Romero Becerril 
