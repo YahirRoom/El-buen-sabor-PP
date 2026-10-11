@@ -1,0 +1,131 @@
+
+[
+  {
+    "id": 1,
+    "nombre": "Café Americano",
+    "categoria": "bebidas",
+    "precio": 35,
+    "descripcion": "Café espresso combinado con agua caliente.",
+    "imagen": "img/cafeamericano.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Café Latte",
+    "categoria": "bebidas",
+    "precio": 55,
+    "descripcion": "Espresso con leche vaporizada y espuma cremosa.",
+    "imagen": "img/caffelatte.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Capuchino",
+    "categoria": "bebidas",
+    "precio": 50,
+    "descripcion": "Espresso con leche caliente y abundante espuma.",
+    "imagen": "img/capuchino.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Chocolate Caliente",
+    "categoria": "bebidas",
+    "precio": 45,
+    "descripcion": "Bebida cremosa de chocolate con leche caliente.",
+    "imagen": "img/chocolate.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Frappé de Caramelo",
+    "categoria": "bebidas",
+    "precio": 65,
+    "descripcion": "Bebida fría de café con hielo y caramelo.",
+    "imagen": "img/frapecaramelo.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Té Chai",
+    "categoria": "bebidas",
+    "precio": 48,
+    "descripcion": "Té especiado con leche y un toque de canela.",
+    "imagen": "img/techai.png"
+  },
+  {
+    "id": 7,
+    "nombre": "Sándwich de Pollo",
+    "categoria": "comida",
+    "precio": 75,
+    "descripcion": "Pan artesanal con pollo, lechuga y aderezo.",
+    "imagen": "img/sandpollo.png"
+  },
+  {
+    "id": 8,
+    "nombre": "Croissant de Jamón y Queso",
+    "categoria": "comida",
+    "precio": 68,
+    "descripcion": "Croissant de mantequilla relleno de jamón y queso.",
+    "imagen": "img/Croissant.png"
+  },
+  {
+    "id": 9,
+    "nombre": "Bagel de Queso Crema",
+    "categoria": "comida",
+    "precio": 60,
+    "descripcion": "Bagel tostado con queso crema y vegetales frescos.",
+    "imagen": "img/bagel.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Molletes",
+    "categoria": "comida",
+    "precio": 65,
+    "descripcion": "Pan con frijoles, queso gratinado y pico de gallo.",
+    "imagen": "img/molletes.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Chilaquiles Verdes",
+    "categoria": "comida",
+    "precio": 85,
+    "descripcion": "Totopos bañados en salsa verde con crema y queso.",
+    "imagen": "img/chilaquiles.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Ensalada de Pollo",
+    "categoria": "comida",
+    "precio": 90,
+    "descripcion": "Mezcla de vegetales frescos con pollo a la plancha.",
+    "imagen": "img/ensalada.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Galleta de Chocolate",
+    "categoria": "tienda",
+    "precio": 25,
+    "descripcion": "Galleta artesanal con chispas de chocolate.",
+    "imagen": "img/galleta.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Brownie",
+    "categoria": "tienda",
+    "precio": 40,
+    "descripcion": "Brownie de chocolate con textura suave y húmeda.",
+    "imagen": "img/brownie.png"
+  },
+  {
+    "id": 15,
+    "nombre": "Papas Fritas",
+    "categoria": "tienda",
+    "precio": 25,
+    "descripcion": "Botana crujiente para acompañar tu bebida.",
+    "imagen": "img/papas.jpg"
+  },
+  {
+    "id": 16,
+    "nombre": "Barra de Granola",
+    "categoria": "tienda",
+    "precio": 30,
+    "descripcion": "Barra de avena, miel y frutos secos.",
+    "imagen": "img/granola.jpg"
+  }
+]

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -42,15 +42,15 @@
             <a href="#">Contact</a>
         </nav>
         <div class="header__botones">
-            <button>
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+            <button type="button" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
                     stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
                     <path d="M21 21l-6 -6" />
                 </svg>
             </button>
-            <button>
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+            <button type="button" type="button">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
                     stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M17.5 17.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
                     <path d="M6 8v11a1 1 0 0 0 1.806 .591l3.694 -5.091v.055" />
@@ -67,14 +67,14 @@
             <h2 class="margincero">Buen café ... <span><br>Días mejores</span></h2>
             <div class="linea"></div>
             <p class="margincero">Tu pausa perfecta comienza aquí</p>
-            <button class="boton">Explorar menu</button>
+            <button type="button" class="boton">Explorar menu</button>
         </div>
     </section>
 
 
 
     <div class="menu" hidden>
-        <button class="menu__boton">
+        <button type="button" class="menu__boton" data-categoria="todos">
             <div class="iconos">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
                     stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
@@ -88,7 +88,7 @@
                 Todos
             </p>
         </button>
-        <button class="menu__boton">
+        <button type="button" class="menu__boton" data-categoria="comida">
             <div class="iconos">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
                     stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
@@ -99,7 +99,7 @@
                 Comida/Loncheria
             </p>
         </button>
-        <button class="menu__boton">
+        <button type="button" class="menu__boton" data-categoria="bebidas">
             <div class="iconos">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
                     stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
@@ -115,7 +115,7 @@
                 Cafeteria y bebidas
             </p>
         </button>
-        <button class="menu__boton">
+        <button type="button" class="menu__boton" data-categoria="tienda">
             <div class="iconos">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
                     stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
@@ -139,7 +139,7 @@
         </section>
 
         <div class="cards">
-            <section class="card">
+            <!--<section class="card">
                 <img src="img/imgprueba.jpg">
                 <div class="card__contenido">
                     <h3>Nombre del producto</h3>
@@ -155,7 +155,7 @@
                     </div>
                 </div>
 
-            </section>
+            </section>-->
         </div>
     </main>
 
@@ -163,9 +163,11 @@
     <footer class="footer">
         <div class="contenedor flex">
             <p>2026 El buen sabor. All rights reserved.</p>
-            <p>Good Coffee Good food Good vibes</p>
+            <p>Good Coffee · Good food · Good vibes</p>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
 

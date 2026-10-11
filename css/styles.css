@@ -34,7 +34,9 @@ body {
 .margincero {
     margin: 0;
 }
-
+.negrita{
+    font-weight: bold;
+}
 .contenedor {
     width: min(90%, 120rem);
     margin: 0 auto;
@@ -221,6 +223,22 @@ body {
 .menu[hidden] {
     display: none;
 }
+/*Animacion meni*/
+@keyframes desplegarMenu {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.menu:not([hidden]) {
+    animation: desplegarMenu 0.4s ease-out;
+}
 .menu button{
     padding: 1rem;
     border:none;
@@ -276,11 +294,16 @@ body {
 }
 .cards{
     margin-top:4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 4rem;
 }
 .card{
     background-color: var(--colorCards);
     width: 28rem;
-    height: 40rem;
+    /*height: 40rem;*/
     border-radius:2.5rem;
     border:1rem;
 }
@@ -299,6 +322,39 @@ body {
 .card__contenido h3{
     font-family: var(--fuenteCardTitle);
 }
+@keyframes aparecerCard {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: aparecerCard 0.5s ease-out both;
+}
+.card__contenido--precio{
+    color:#4CD964;
+}
+.card__contenido--titulo{
+    display:flex;
+    justify-content: space-between;
+}
+.card__contenido--titulo-icono{
+  background-color: var(--naraja);
+  height: 5rem;
+  width: 5rem; 
+  border-radius:100%;
+  margin-top:1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 /*-----Footer-----*/
 .footer{
     height: 10rem;
@@ -314,3 +370,4 @@ body {
 .flex p{
     color:white;
 }
+
