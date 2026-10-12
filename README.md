@@ -53,7 +53,7 @@ El-Buen-Sabor/
 1. Clonar el repositorio:
 
    ```bash
-   git clone URL_DEL_REPOSITORIO
+   git clone https://github.com/YahirRoom/El-buen-sabor-PP
    ```
 
 2. Abrir la carpeta del proyecto en Visual Studio Code.
